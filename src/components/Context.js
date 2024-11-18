@@ -8,9 +8,9 @@ export const DataProvider = (props) => {
             "-id": "1",
             "title": "آیفون 11",
             'images': [
-                "http//localhost:3000/images/1.jpg",
-                "http//localhost:3000/images/2.jpg",
-                "http//localhost:3000/images/3.jpg"
+                "/images/1.jpg",
+                "/images/2.jpg",
+                "/images/3.jpg"
             ],
             "description": "جدیدترین محصول شرکت ما",
             "content": "شرکتهای زیادی در دنیا از این مدل استفاده می کنند",
@@ -22,9 +22,9 @@ export const DataProvider = (props) => {
             "-id": "2",
             "title": "آیفون 12",
             'images': [
-                "http//localhost:3000/images/1.jpg",
-                "http//localhost:3000/images/2.jpg",
-                "http//localhost:3000/images/3.jpg"
+                "/images/1.jpg",
+                "/images/2.jpg",
+                "/images/3.jpg"
             ],
             "description": "جدیدترین محصول شرکت ما",
             "content": "شرکتهای زیادی در دنیا از این مدل استفاده می کنند",
@@ -36,9 +36,9 @@ export const DataProvider = (props) => {
             "-id": "3",
             "title": "آیفون 13",
             'images': [
-                "http//localhost:3000/images/1.jpg",
-                "http//localhost:3000/images/2.jpg",
-                "http//localhost:3000/images/3.jpg"
+                "/images/1.jpg",
+                "/images/2.jpg",
+                "/images/3.jpg"
             ],
             "description": "جدیدترین محصول شرکت ما",
             "content": "شرکتهای زیادی در دنیا از این مدل استفاده می کنند",
@@ -50,9 +50,9 @@ export const DataProvider = (props) => {
             "-id": "4",
             "title": "آیفون 14",
             'images': [
-                "http//localhost:3000/images/9.jpg",
-                "http//localhost:3000/images/10.jpg",
-                "http//localhost:3000/images/11.jpg"
+                "/images/9.jpg",
+                "/images/10.jpg",
+                "/images/11.jpg"
             ],
             "description": "جدیدترین محصول شرکت ما",
             "content": "شرکتهای زیادی در دنیا از این مدل استفاده می کنند",

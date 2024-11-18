@@ -27,7 +27,7 @@ const Header = () => {
       </div>
       <ul style={styleMenu}>
         <li> <Link to='/'>خانه</Link> </li>
-        <li> <Link to='/'>محصولات</Link> </li>
+        <li> <Link to='/products'>محصولات</Link> </li>
         <li> <Link to='/'>درباره ما</Link> </li>
         <li> <Link to='/'>تماس با ما</Link> </li>
         <li> <Link to='/'>ثبت نام / ورود </Link> </li>
