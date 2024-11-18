@@ -16,12 +16,12 @@ function Products() {
       {
         products.map(product => (
           <div className="card" key={product._id}>
-            <Link to='/'>
+            <Link to={`products/${product.id}`}>
               <img src={product.images[0]}></img>
             </Link>
             <div className="box">
               <h3>
-                <Link to='/'>{product.title}</Link>
+                <Link to={`/products/${product.id}`}>{product.title}</Link>
               </h3>
               <p>{product.description}</p>
               <h4>{formatCurrency(product.price)} </h4>

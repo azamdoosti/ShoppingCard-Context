@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Header from './components/Header'
 import { DataProvider } from './components/Context';
 import Products from './components/Products'
+import Details from './components/Details'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
             <Header />
             <Routes>
               <Route path='/products' element={<Products />} />
+              <Route path='/products/:id' element={<Details />} />
             </Routes>
           </BrowserRouter>
         </div>

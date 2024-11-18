@@ -5,7 +5,7 @@ export const DataContext = createContext()
 export const DataProvider = (props) => {
     const [products, setProducts] = useState([
         {
-            "-id": "1",
+            "id": "1",
             "title": "آیفون 11",
             'images': [
                 "/images/1.jpg",
@@ -19,7 +19,7 @@ export const DataProvider = (props) => {
             "count": 1
         },
         {
-            "-id": "2",
+            "id": "2",
             "title": "آیفون 12",
             'images': [
                 "/images/1.jpg",
@@ -33,7 +33,7 @@ export const DataProvider = (props) => {
             "count": 1
         },
         {
-            "-id": "3",
+            "id": "3",
             "title": "آیفون 13",
             'images': [
                 "/images/1.jpg",
@@ -47,7 +47,7 @@ export const DataProvider = (props) => {
             "count": 1
         },
         {
-            "-id": "4",
+            "id": "4",
             "title": "آیفون 14",
             'images': [
                 "/images/9.jpg",
