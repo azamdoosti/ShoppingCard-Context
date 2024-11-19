@@ -15,8 +15,8 @@ function Products() {
     <div className="products">
       {
         products.map(product => (
-          <div className="card" key={product._id}>
-            <Link to={`products/${product.id}`}>
+          <div className="card" key={product.id}>
+            <Link to={`/products/${product.id}`}>
               <img src={product.images[0]}></img>
             </Link>
             <div className="box">
